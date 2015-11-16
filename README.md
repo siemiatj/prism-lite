@@ -1,12 +1,12 @@
 # prism-lite
 
-** What
+**What
 Monkeypatch on PrismJS to handle big files (150MB+/300k+ LOC).
 
-** Why
+**Why
 I found that Prism was struggling with a bunch of big log files I was trying to parse. So I simplified the way it tokenizes regexes.
 
-** How
+**How
 Just include the patch file after prism. That's it !
 
 ```
@@ -21,7 +21,7 @@ Just include the patch file after prism. That's it !
 </html>
 ```
 
-** Why not ?
+**Why not ?
 I really wanted to keep it simple (and it wasn't needed in my case) so lookbehind rules won't work.
 
 
